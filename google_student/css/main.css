@@ -130,3 +130,37 @@ ul#right li a{
 	letter-spacing: 0.1px;
 	font-size: 13px;
 }
+
+
+/*  MEDIA QUERY  */
+
+@media screen and (max-width: 375px) {
+	ul#nav {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	ul#nav li {
+		text-align: center;
+		margin: auto;
+		font-size: 11px;
+	}
+
+	ul#right {
+		width: 350px;
+		text-align: center;
+		font-size: 30px;
+		margin-top: -15px;
+	}
+
+	ul#left {
+		width: 350px;
+		text-align: center;
+		margin-top: 0px;
+	}
+
+	ul#bottom_nav {
+		font-size: 25px;
+		text-align: center;
+	}
+}
